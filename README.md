@@ -3,3 +3,4 @@
 ## Projects
 
 - [Portfolio](portfolio/)
+- [Store-Landing](store-landing/)
