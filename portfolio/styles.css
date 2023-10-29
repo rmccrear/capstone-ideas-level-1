@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 60px 0;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-card {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  border-radius: 0.5rem;
+}
+
+.testimonial blockquote {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.testimonial footer {
+  font-size: 1rem;
+}
+.pointer {
+  cursor: pointer;
+}
