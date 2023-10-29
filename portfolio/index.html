@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link id="darkThemeStylesheet" rel="stylesheet" href="dark-theme.css" disabled>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="bg-primary text-white text-center py-3">
+      <h1>My Portfolio</h1>
+    </header>
+    <!--* NAVIGATION  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li onclick="toggleDarkMode()" class="nav-item">
+              <a class="nav-link pointer">Dark Mode</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--* SKILLS  -->
+    <section class="container mt-5">
+      <h2 class="mb-4 text-center">My Skills</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">HTML & CSS</h5>
+              <p class="card-text">
+                Expert in creating responsive and accessible web pages using
+                HTML5 and CSS3.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">
+                Proficient in vanilla JavaScript, and familiar with frameworks
+                like React and Vue.js.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">
+                Extensive experience in using Bootstrap to design beautiful and
+                responsive layouts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Visual Studio Code</h5>
+              <p class="card-text">
+                Skilled in utilizing Visual Studio Code for efficient and
+                productive coding sessions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Browser Developer Tools</h5>
+              <p class="card-text">
+                Proficient in using browser developer tools for debugging and
+                optimizing web pages.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Source Control</h5>
+              <p class="card-text">
+                Experienced in using Git for version control and collaboration
+                in development projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Deployment</h5>
+              <p class="card-text">
+                Skilled in deploying web applications to various hosting
+                platforms ensuring high availability.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Design</h5>
+              <p class="card-text">
+                Expert in designing web pages that work on any device and screen
+                size.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card skill-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">API Integration</h5>
+              <p class="card-text">
+                Proficient in integrating various APIs to enhance functionality
+                and user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--* TESTIMONIALS  -->
+    <section class="container mt-5 mb-5">
+      <h2 class="mb-4 text-center">What Clients Say</h2>
+      <div class="testimonial p-4">
+        <blockquote class="blockquote">
+          <p class="mb-5">
+            "Charlotte was amazing to work with! She understood our needs and
+            delivered a website that exceeded our expectations."
+          </p>
+          <footer class="blockquote-footer text-end">
+            John Doe, CEO of Example Inc.
+          </footer>
+        </blockquote>
+      </div>
+      <div class="testimonial p-4 mt-3">
+        <blockquote class="blockquote">
+          <p class="mb-5">
+            "Professional, efficient, and talented. Charlotte is everything you
+            could ask for in a web developer."
+          </p>
+          <footer class="blockquote-footer text-end">
+            Jane Smith, Founder of Creative Studios
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+
+<section class="container mt-5">
+  <h2 class="mb-4 text-center">Projects</h2>
+  <div class="row">
+    <!-- Existing Projects -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img
+          src="assets/img/project.jpg"
+          class="card-img-top"
+          alt="Project 1"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">A brief description of the first project.</p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal1"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img
+          src="assets/img/project2.jpg"
+          class="card-img-top"
+          alt="Project 2"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">
+            A brief description of the second project.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal2"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img
+          src="assets/img/project3.jpg"
+          class="card-img-top"
+          alt="Project 3"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">
+            A brief description of the third project.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal3"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+ <!-- Project 4 -->
+<div class="col-md-4 mb-4">
+  <div class="card">
+    <img
+      src="assets/img/project4.jpg"
+      class="card-img-top"
+      alt="Project 4"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Project 4</h5>
+      <p class="card-text">
+        A brief description of the fourth project.
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal4"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Project 5 -->
+<div class="col-md-4 mb-4">
+  <div class="card">
+    <img
+      src="assets/img/project5.jpg"
+      class="card-img-top"
+      alt="Project 5"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Project 5</h5>
+      <p class="card-text">
+        A brief description of the fifth project.
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal5"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Project 6 -->
+<div class="col-md-4 mb-4">
+  <div class="card">
+    <img
+      src="assets/img/project6.jpg"
+      class="card-img-top"
+      alt="Project 6"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Project 6</h5>
+      <p class="card-text">
+        A brief description of the sixth project.
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal6"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Project 7 -->
+<div class="col-md-4 mb-4">
+  <div class="card">
+    <img
+      src="assets/img/project7.jpg"
+      class="card-img-top"
+      alt="Project 7"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Project 7</h5>
+      <p class="card-text">
+        A brief description of the seventh project.
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal7"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Project 8 -->
+<div class="col-md-4 mb-4">
+  <div class="card">
+    <img
+      src="assets/img/project8.jpg"
+      class="card-img-top"
+      alt="Project 8"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Project 8</h5>
+      <p class="card-text">
+        A brief description of the eighth project.
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal8"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Project 9 -->
+<div class="col-md-4 mb-4">
+  <div class="card">
+    <img
+      src="assets/img/project9.jpg"
+      class="card-img-top"
+      alt="Project 9"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Project 9</h5>
+      <p class="card-text">
+        A brief description of the ninth project.
+      </p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal9"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="projectModal"
+      tabindex="-1"
+      aria-labelledby="projectModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel">Project Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            More details about the project can be placed here.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
