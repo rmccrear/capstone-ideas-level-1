@@ -6,3 +6,17 @@ img {
   max-height: 300px;
   object-fit: cover;
 }
+
+.rental-calculator {
+  padding: 20px;
+}
+
+.rental-calculator h2,
+.rental-calculator h4 {
+  text-align: center;
+}
+
+.rental-calculator form {
+  max-width: 500px;
+  margin: 0 auto;
+}

@@ -1,3 +1,4 @@
+'use strict';
 //* DARK MODE TOGGLE
 function toggleDarkMode() {
   let darkThemeStylesheet = document.getElementById('darkThemeStylesheet');
@@ -19,5 +20,3 @@ function applyDarkModePreference() {
 window.onload = function () {
   applyDarkModePreference();
 };
-
-//* TOGGLE MODAL

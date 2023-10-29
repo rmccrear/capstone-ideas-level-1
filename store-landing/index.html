@@ -123,6 +123,75 @@
         </div>
       </div>
     </section>
+    <!-- Rental Pricing Calculator Section -->
+    <section class="rental-calculator mt-5">
+      <div class="container">
+        <h2 class="mb-4">Rental Pricing Calculator</h2>
+        <form>
+          <div class="mb-3">
+            <label for="equipmentType" class="form-label"
+              >Equipment Type:</label
+            >
+            <select
+              id="equipmentType"
+              class="form-select"
+              onchange="calculateRentalCost()"
+            >
+              <option value="kayak">Kayak</option>
+              <option value="canoe">Canoe</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="rentalHours" class="form-label">Hours:</label>
+            <input
+              type="number"
+              id="rentalHours"
+              class="form-control"
+              min="1"
+              max="8"
+              onchange="calculateRentalCost()"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="numberOfPeople" class="form-label"
+              >Number of People:</label
+            >
+            <input
+              type="number"
+              id="numberOfPeople"
+              class="form-control"
+              min="1"
+              max="10"
+              onchange="calculateRentalCost()"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="lifeJackets" class="form-label">Life Jackets:</label>
+            <select
+              id="lifeJackets"
+              class="form-select"
+              onchange="calculateRentalCost()"
+            >
+              <option value="0">None</option>
+              <option value="5">Yes (additional $5 per jacket)</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="coolerRental" class="form-label">Cooler Rental:</label>
+            <select
+              id="coolerRental"
+              class="form-select"
+              onchange="calculateRentalCost()"
+            >
+              <option value="0">No</option>
+              <option value="15">Yes (additional $15)</option>
+            </select>
+          </div>
+          <h4>Total Cost: <span id="totalCost">$0.00</span></h4>
+          <div id="summary" class="mt-4"></div>
+        </form>
+      </div>
+    </section>
 
     <!-- Training Section -->
     <section class="training mt-5">
@@ -237,5 +306,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
