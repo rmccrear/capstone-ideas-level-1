@@ -25,7 +25,7 @@ An interactive web-based "Guess-a-Number" game where players try to guess a rand
 - **Skills Covered**: HTML, CSS, Bootstrap, JavaScript
 - **Key Features**: Interactive game logic, dynamic DOM manipulation, user feedback for guesses, restart game functionality.
 
-### 4. [Car Rental Service](car-rental/)
+### 4. [Car Rental Service](rental-car/)
 
 A web application for a car rental service, allowing users to choose car types, calculate rental costs, and view details about various car options.
 
