@@ -1,3 +1,4 @@
+'use strict';
 document.addEventListener('DOMContentLoaded', () => {
   let randomNumber = Math.floor(Math.random() * 100) + 1;
   let guessesRemaining = 10;
