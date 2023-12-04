@@ -1,3 +1,4 @@
+'use strict';
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('rentalForm');
   const totalCostDiv = document.getElementById('totalCost');
