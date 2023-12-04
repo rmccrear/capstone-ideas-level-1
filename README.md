@@ -18,6 +18,20 @@ A business landing page for "Ryan's Rough River", a store selling kayaks, canoes
 - **Skills Covered**: HTML, CSS, Bootstrap, JavaScript (for a contact modal)
 - **Key Features**: Navigation bar, product section, training section, contact modal, responsive design.
 
+### 3. [Guess-a-Number Game](guess-a-number/)
+
+An interactive web-based "Guess-a-Number" game where players try to guess a randomly generated number within a set range.
+
+- **Skills Covered**: HTML, CSS, Bootstrap, JavaScript
+- **Key Features**: Interactive game logic, dynamic DOM manipulation, user feedback for guesses, restart game functionality.
+
+### 4. [Car Rental Service](car-rental/)
+
+A web application for a car rental service, allowing users to choose car types, calculate rental costs, and view details about various car options.
+
+- **Skills Covered**: HTML, CSS, Bootstrap, JavaScript
+- **Key Features**: Car selection form, dynamic cost calculation, detailed breakdown of fees and taxes, responsive design.
+
 ## Getting Started
 
 These projects are deployed using GitHub Pages. You can view the live version of each project by clicking on the links above.
@@ -26,5 +40,5 @@ If you would like to run the projects locally or contribute:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/capstone-ideas-level-1.git
+   git clone https://github.com/tm-LBenson/capstone-ideas-level-1.git
    ```
