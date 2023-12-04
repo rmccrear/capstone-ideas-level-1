@@ -1,0 +1,14 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  border-bottom: 2px solid #dee2e6;
+  margin-bottom: 20px;
+}
+.game-container {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.instructions {
+  margin-bottom: 20px;
+}
