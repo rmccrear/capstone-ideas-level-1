@@ -32,6 +32,13 @@ A web application for a car rental service, allowing users to choose car types, 
 - **Skills Covered**: HTML, CSS, Bootstrap, JavaScript
 - **Key Features**: Car selection form, dynamic cost calculation, detailed breakdown of fees and taxes, responsive design.
 
+### 5. [Developor Portfolio](portfolio2/)
+
+A personal portfolio website showcasing skills, projects, and experience in web development. Use this template to create a professional online presence, tailoring the content to your own work and skills.
+
+- **Skills Covered**: HTML, CSS, Bootstrap, JavaScript (for a dark mode toggle)
+- **Key Features**: Responsive design, project section with modals, skills section, dark/light mode toggle.
+
 ## Getting Started
 
 These projects are deployed using GitHub Pages. You can view the live version of each project by clicking on the links above.
