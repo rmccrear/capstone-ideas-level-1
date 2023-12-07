@@ -144,28 +144,3 @@ div.innerHTML = `  <svg
             </g>
           </svg>
         `;
-
-const downArrowContainer = document.querySelector('arrow-container');
-downArrowContainer.innerHTML = `<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="80"
-                height="80"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M12 19.164L18.207 13.957L16.793 12.543L12 17.336L7.207 12.543L5.793 13.957L12 19.164Z"
-                  stroke="hsl(35, 75%, 55%)"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  opacity="1"
-                ></path>
-                <path
-                  d="M12 13.514L18.207 7.307L16.793 5.893L12 10.686L7.207 5.893L5.793 7.307L12 13.514Z"
-                  stroke="hsl(35, 75%, 55%)"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  opacity="1"
-                ></path></svg
-            >`;
